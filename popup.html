@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SecureVault</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>SecureVault</h2>
+
+  <!-- LOCK SCREEN -->
+  <div id="lockScreen">
+    <input type="password" id="masterPassword" placeholder="Enter Master Password">
+    <button id="unlockBtn">Unlock Vault</button>
+  </div>
+
+  
+
+  <!-- VAULT -->
+  <div id="vault" style="display:none;">
+    <input type="text" id="site" placeholder="Website">
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button id="saveBtn">Save</button>
+
+    <h3>Saved Passwords</h3>
+    <ul id="passwordList"></ul>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "SecureVault",
+  "version": "1.0",
+  "description": "Password Manager Chrome Extension",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
